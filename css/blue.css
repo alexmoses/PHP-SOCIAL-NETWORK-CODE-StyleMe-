@@ -1,0 +1,92 @@
+/* ============================================== */
+
+/* =============== mashmenu style =============== */
+div.mashmenu {
+	/* colors */
+	background: none repeat scroll 0 0 #353f5f; /* color of the nav */
+	border-bottom: 1px solid #DCE5EE; /* border bottom :  no hover color */
+	border-top: 1px solid white;
+	color:black;
+	position: fixed;
+}
+/* ============================================== */
+
+/* ===============   =fnav style  =============== */
+div.mashmenu div.fnav {
+	/* colors */
+	border:2px solid #F3F6F9; /* border top,left,right :  no hover color */
+	border-bottom:none;
+}
+
+div.mashmenu div.fnav:hover{
+	/* colors */
+	border:2px solid #0054a2; /* border top,left,right : hover color */
+	border-bottom:none;
+	background:#F3F6F9;
+	color:#000;
+}
+
+div.mashmenu div.fnav a.flink {
+	/* colors */
+	color:white;
+}
+
+div.mashmenu div.fnav a.flink:hover {
+	/* colors */
+	color:black;
+}
+
+
+div.mashmenu div.fnav div.allContent {
+	/* colors */
+	background: none repeat scroll 0 0 #F3F6F9; /* color of the nav */
+	border:2px solid #0054a2; /* border bottom,left,right : hover color  */
+	border-top:none;
+	color:black;
+}
+
+div.mashmenu div.fnav div.allContent a.slink {
+	/* colors */
+	color:#0054a2;
+}
+
+div.mashmenu div.fnav div.allContent a.slink:hover {
+	/* colors */
+	background-color: #5E88B4;
+	color:white;
+}
+
+div.mashmenu div.fnav div.snav:hover div.insideContent{
+	/* colors */
+	background: white;
+	border-left:1px solid white;
+	
+}
+
+div.mashmenu div.fnav div.insideContent a {
+	/* colors */
+	color:#0054a2;
+	border-bottom:1px solid #5E88B4; /* border bottom : hover color  */
+}
+
+div.mashmenu div.fnav div.insideContent a span:hover{
+	/* colors */
+	background-color: #5E88B4;
+	color:white;
+}
+
+/* ============   =right menu style  ============ */
+
+div.mashmenu div.feat a.flink {
+	/* colors */
+	color:#0054a2;
+}
+
+div.mashmenu div.feat a.flink:hover{
+	/* colors */
+	background-color: #5E88B4;
+	color:white;
+	border:none;
+}
+
+/* ============================================== */
